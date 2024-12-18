@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Критерии оценки итогового проекта</title>
+    <!-- Подключение Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Оценка проекта</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#problem">Проблема и цели</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Исследование и контекст</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#design">Дизайн и методология</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technical">Техническая реализация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#results">Результаты и тестирование</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#presentation">Презентация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teamwork">Командная работа</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Критерии оценки итогового проекта</h1>
+    </header>
+
+    <div class="container mt-4 p-4 bg-white rounded shadow">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>Критерии</th>
+                        <th>Превосходно (90-100%)</th>
+                        <th>Хорошо (75-89%)</th>
+                        <th>Удовлетворительно (60-74%)</th>
+                        <th>Нужно улучшить (0-59%)</th>
+                        <th>Вес</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="problem">
+                        <td data-label="Критерии">Определение проблемы и целей</td>
+                        <td data-label="Превосходно">Проблема четко определена, цели измеримы, а масштаб соответствует проекту.</td>
+                        <td data-label="Хорошо">Проблема определена, цели ясны, но требуются незначительные корректировки.</td>
+                        <td data-label="Удовлетворительно">Определение проблемы расплывчато, цели не вполне ясны.</td>
+                        <td data-label="Нужно улучшить">Определение проблемы слабое или отсутствует, цели неясны или отсутствуют.</td>
+                        <td class="weight" data-label="Вес">15%</td>
+                    </tr>
+                    <tr id="research">
+                        <td data-label="Критерии">Исследование и контекст</td>
+                        <td data-label="Превосходно">Демонстрируется глубокое исследование с четким пониманием темы и использованием релевантных источников.</td>
+                        <td data-label="Хорошо">Проведено адекватное исследование с использованием релевантных источников, но с недостаточной глубиной в некоторых областях.</td>
+                        <td data-label="Удовлетворительно">Исследование минимальное, с ограниченным числом источников и слабой связью с проблемой.</td>
+                        <td data-label="Нужно улучшить">Исследование недостаточное, отсутствует ключевая информация или нет достоверных источников.</td>
+                        <td class="weight" data-label="Вес">15%</td>
+                    </tr>
+                    <tr id="design">
+                        <td data-label="Критерии">Дизайн и методология</td>
+                        <td data-label="Превосходно">Методология высокоэффективная, инновационная и соответствует целям; дизайн хорошо проработан.</td>
+                        <td data-label="Хорошо">Методология соответствует целям, но недостаёт некоторых деталей.</td>
+                        <td data-label="Удовлетворительно">Методология базовая, с пробелами в дизайне или несоответствиями целям.</td>
+                        <td data-label="Нужно улучшить">Методология выбрана плохо или не соответствует целям проекта.</td>
+                        <td class="weight" data-label="Вес">20%</td>
+                    </tr>
+                    <tr id="technical">
+                        <td data-label="Критерии">Техническая реализация</td>
+                        <td data-label="Превосходно">Решение хорошо реализовано, технически обосновано и превосходит ожидания по функциональности и инновациям.</td>
+                        <td data-label="Хорошо">Реализация технически корректна, большинство аспектов работает хорошо.</td>
+                        <td data-label="Удовлетворительно">Некоторые части реализации функциональны, но есть заметные проблемы.</td>
+                        <td data-label="Нужно улучшить">Реализация имеет серьёзные технические проблемы или не завершена.</td>
+                        <td class="weight" data-label="Вес">25%</td>
+                    </tr>
+                    <tr id="results">
+                        <td data-label="Критерии">Результаты и тестирование</td>
+                        <td data-label="Превосходно">Результаты тщательно проанализированы, тестирование основательное и соответствующее. Сделаны ясные выводы.</td>
+                        <td data-label="Хорошо">Результаты проанализированы адекватно, но тестирование недостаточно детально.</td>
+                        <td data-label="Удовлетворительно">Базовый анализ результатов с ограниченным или неполным тестированием.</td>
+                        <td data-label="Нужно улучшить">Результаты плохо проанализированы, тестирование недостаточное или отсутствует.</td>
+                        <td class="weight" data-label="Вес">15%</td>
+                    </tr>
+                    <tr id="presentation">
+                        <td data-label="Критерии">Презентация и коммуникация</td>
+                        <td data-label="Превосходно">Презентация ясная, хорошо организована и профессионально выполнена; документация полная и точная.</td>
+                        <td data-label="Хорошо">Презентация ясная, но есть незначительные проблемы; документация хорошая, но может быть улучшена.</td>
+                        <td data-label="Удовлетворительно">Презентация недостаточно ясная или плохо организована; документация неполная.</td>
+                        <td data-label="Нужно улучшить">Презентация плохо организована, неясна или неполная; документация отсутствует.</td>
+                        <td class="weight" data-label="Вес">10%</td>
+                    </tr>
+                    <tr id="teamwork">
+                        <td data-label="Критерии">Работа в команде (если применимо)</td>
+                        <td data-label="Превосходно">Члены команды отлично взаимодействовали, задачи были чётко распределены, оказывалась взаимная поддержка.</td>
+                        <td data-label="Хорошо">Команда работала хорошо, хотя некоторые члены участвовали больше других.</td>
+                        <td data-label="Удовлетворительно">Работа в команде была неровной, с заметными пробелами в сотрудничестве.</td>
+                        <td data-label="Нужно улучшить">Работа в команде была слабой или несбалансированной, сотрудничество ограничено.</td>
+                        <td class="weight" data-label="Вес">10%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p><strong>Общий балл:</strong> / 100</p>
+        <p><strong>Дополнительные заметки:</strong></p>
+        <ul>
+            <li>Вес: Скорректируйте проценты в зависимости от специфики проекта (например, больше веса для технической реализации в случае программного проекта).</li>
+            <li>Обратная связь: Оставьте место для комментариев по каждому критерию.</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2024 Оценка итогового проекта
+    </footer>
+
+    <!-- Подключение Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
